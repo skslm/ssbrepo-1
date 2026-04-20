@@ -1,0 +1,17 @@
+{
+	"name": "SITI001344",
+	"properties": {
+		"globalParameters": {
+			"SITI_global": {
+				"type": "int",
+				"value": 6
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b4e4c851-4343-4ef8-b086-b7cb4aba323f",
+		"tenantId": "bbb4d710-f674-49d7-bd5a-a5e821125ec2"
+	}
+}

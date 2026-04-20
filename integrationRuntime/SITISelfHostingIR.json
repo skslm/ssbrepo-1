@@ -1,0 +1,6 @@
+{
+	"name": "SITISelfHostingIR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

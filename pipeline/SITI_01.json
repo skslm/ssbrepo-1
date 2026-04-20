@@ -1,0 +1,25 @@
+{
+	"name": "SITI_01",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
+			}
+		],
+		"parameters": {
+			"S1": {
+				"type": "int",
+				"defaultValue": 10
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2026-04-09T18:12:54Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
