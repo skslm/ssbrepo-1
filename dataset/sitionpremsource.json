@@ -1,0 +1,40 @@
+{
+	"name": "sitionpremsource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SITIompremls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "sale_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "product_name",
+				"type": "varchar"
+			},
+			{
+				"name": "category",
+				"type": "varchar"
+			},
+			{
+				"name": "sale_amount",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "sale_date",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"schema": "test_sch",
+			"table": "sales"
+		}
+	}
+}
