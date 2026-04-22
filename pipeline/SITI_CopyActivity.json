@@ -32,10 +32,15 @@
 						"type": "DelimitedTextSink",
 						"storeSettings": {
 							"type": "AzureBlobFSWriteSettings",
-							"copyBehavior": "PreserveHierarchy"
+							"copyBehavior": "FlattenHierarchy"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
+							"maxRowsPerFile": {
+								"value": "@pipeline().globalParameters.SITI_global",
+								"type": "Expression"
+							},
+							"fileNamePrefix": "siti",
 							"quoteAllText": true,
 							"fileExtension": ".txt"
 						}
