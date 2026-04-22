@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "SITI001344"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"SITIompremls_password": {
+			"value": ""
+		},
+		"sitigen2target_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://sitiblobstorage.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0420-182023-ev6wokuq"
+		},
+		"SITIompremls_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SITIompremls_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SITIompremls_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"sitigen2target_properties_typeProperties_url": {
+			"value": "https://sititarget.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
