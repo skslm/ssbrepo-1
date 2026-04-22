@@ -36,11 +36,6 @@
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
-							"maxRowsPerFile": {
-								"value": "@pipeline().globalParameters.SITI_global",
-								"type": "Expression"
-							},
-							"fileNamePrefix": "siti",
 							"quoteAllText": true,
 							"fileExtension": ".txt"
 						}
