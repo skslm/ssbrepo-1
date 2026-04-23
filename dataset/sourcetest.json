@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "siticontainer1"
+				"fileName": "SITI001344_Pipeline runs.csv",
+				"container": "output"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
