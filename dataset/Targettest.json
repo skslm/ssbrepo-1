@@ -2,7 +2,7 @@
 	"name": "Targettest",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "sitigen2target",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,9 +10,11 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"folderPath": "dgr",
 				"fileSystem": "output"
 			},
 			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
