@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "SITI001344_Pipeline runs.csv",
-				"container": "output"
+				"fileName": "annual-enterprise-survey-2024-financial-year-provisional-size-bands.csv",
+				"container": "siticontainer1"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
