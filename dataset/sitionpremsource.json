@@ -31,6 +31,10 @@
 				"name": "sale_date",
 				"type": "date"
 			}
-		]
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Control_Table_Load"
+		}
 	}
 }
