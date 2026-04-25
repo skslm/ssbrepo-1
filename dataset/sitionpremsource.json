@@ -31,10 +31,6 @@
 				"name": "sale_date",
 				"type": "date"
 			}
-		],
-		"typeProperties": {
-			"schema": "test_sch",
-			"table": "sales"
-		}
+		]
 	}
 }
