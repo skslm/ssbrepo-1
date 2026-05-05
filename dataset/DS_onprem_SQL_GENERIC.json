@@ -1,0 +1,17 @@
+{
+	"name": "DS_onprem_SQL_GENERIC",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SITIompremls",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"TName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
