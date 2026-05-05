@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "Trgt",
-				"fileSystem": "output"
+				"folderPath": "Target",
+				"fileSystem": "siticontainer1"
 			},
 			"columnDelimiter": ",",
 			"rowDelimiter": "\n",
