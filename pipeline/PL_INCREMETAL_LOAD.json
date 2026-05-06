@@ -177,10 +177,10 @@
 			"source_table": {
 				"type": "string"
 			},
-			"watermark_tbl": {
+			"watermark_table": {
 				"type": "string"
 			},
-			"watermark_value": {
+			"watermark_value_column": {
 				"type": "string"
 			},
 			"dest_container": {
