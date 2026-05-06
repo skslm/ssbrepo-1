@@ -33,8 +33,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "dbo",
-			"table": "Control_Table_Load"
+			"schema": "test_sch",
+			"table": "sales"
 		}
 	}
 }
